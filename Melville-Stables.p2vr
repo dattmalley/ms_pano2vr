@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig rev="18116" version="6.1.15">
+  <panorama>
+    <id>node1</id>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>../Melville-Stables.tif</filename>
+      <videotype>equi</videotype>
+      <levelpitch>0</levelpitch>
+      <levelroll>0</levelroll>
+    </input>
+    <viewingparameter>
+      <pan>
+        <start>-180</start>
+        <min>0</min>
+        <max>360</max>
+      </pan>
+      <tilt>
+        <start>0</start>
+        <min>-90</min>
+        <max>90</max>
+      </tilt>
+      <fov>
+        <start>130</start>
+        <minunit>pixels</minunit>
+        <minpixels>2</minpixels>
+        <max>120</max>
+        <maxfovstereographic>270</maxfovstereographic>
+        <maxfovfisheye>360</maxfovfisheye>
+      </fov>
+      <flyinstart>
+        <pan>0</pan>
+        <tilt>-90</tilt>
+        <fov>170</fov>
+      </flyinstart>
+      <pannorth>-48</pannorth>
+      <scaletofit>1</scaletofit>
+      <projection>rectilinear</projection>
+      <flyinprojection>stereo</flyinprojection>
+    </viewingparameter>
+    <userdata>
+      <capturedatetime>2022-11-29T20:42:56</capturedatetime>
+      <datetime>11/29/22 8:42 PM</datetime>
+      <tags>Jaycee-UVU|Panos</tags>
+      <latitude>40.26171271</latitude>
+      <longitude>-111.70506835</longitude>
+      <altitude>-10000</altitude>
+      <usealtitude>0</usealtitude>
+      <title>Melville Stables</title>
+      <author>Matt Dalley</author>
+    </userdata>
+    <floorplans/>
+    <hotspots>
+      <hotspot>
+        <position>
+          <pan>-47.44</pan>
+          <tilt>-2.85</tilt>
+          <fov>10</fov>
+        </position>
+        <next>
+          <pan>0</pan>
+          <tilt>0</tilt>
+          <fov>0</fov>
+        </next>
+        <polygon/>
+        <type>point</type>
+        <id>Point01</id>
+        <linktype>image</linktype>
+        <linksubtype>unknown</linksubtype>
+        <url>/Volumes/Matt_Dalley/DGM 3261/Assignment 10/Book_Pictures/Melville_Stable/DSC01358.jpg</url>
+        <distance>0</distance>
+        <distanceauto>1</distanceauto>
+        <autoplace>0</autoplace>
+        <use3d>0</use3d>
+        <width>0</width>
+        <height>0</height>
+      </hotspot>
+    </hotspots>
+    <output>
+      <placeidcache>{"entries":[]}</placeidcache>
+      <htmlcss>
+        <html>
+          <enabled>1</enabled>
+          <filename>output/index.html</filename>
+          <values>
+            <value id="css"/>
+            <value id="fitcover">false</value>
+            <value id="gginfo">false</value>
+            <value id="htmltitle">$(upt)</value>
+            <value id="jsxml">false</value>
+            <value id="parseanchor">false</value>
+          </values>
+        </html>
+        <facequality/>
+        <transition>
+          <zoomafterinfov>90</zoomafterinfov>
+          <zoomafteroutfov>20</zoomafteroutfov>
+        </transition>
+        <autorotate>
+          <enabled>1</enabled>
+          <delay>10</delay>
+          <speed>0.05</speed>
+        </autorotate>
+        <soundstransition/>
+        <flyintransition/>
+        <hotspottext/>
+        <hotspotstyle/>
+        <webvr/>
+        <tilesize>2252</tilesize>
+        <filename>output/pano.xml</filename>
+        <skinfile>silhouette_v6_mod.ggsk</skinfile>
+      </htmlcss>
+    </output>
+    <streetview/>
+    <streetviewproject/>
+    <sounds/>
+    <animation>
+      <title>Animation01</title>
+    </animation>
+  </panorama>
+</pano2vrconfig>
